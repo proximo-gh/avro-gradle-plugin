@@ -11,7 +11,7 @@ class AvroPlugin implements Plugin<Project> {
         project.task( type: AvroCompileTask, 'compileAvro' )
 
         project.afterEvaluate {
-            project.tasks.compileAvro.execute()
+//            project.tasks.compileAvro.execute()
         }
     }
 }
